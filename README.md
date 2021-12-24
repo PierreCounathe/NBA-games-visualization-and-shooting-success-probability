@@ -31,7 +31,7 @@ The game data can be found on [this repository](https://github.com/linouk23/NBA-
 ![shooting success probability on the court with a closest defender 5 feet away](results/shooting_success_probability_with_dist_def_5.png)
 
 ## Organizaztion of this directory
-
+```
 ├── raw_data
 │   ├── 0021500489.json
 │   ├── 0021500492.json
@@ -53,3 +53,4 @@ The game data can be found on [this repository](https://github.com/linouk23/NBA-
 └── README.md
 
 1 directory, 8 files
+```
