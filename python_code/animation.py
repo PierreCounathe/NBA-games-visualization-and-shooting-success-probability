@@ -7,7 +7,7 @@ import pandas as pd
 import matplotlib as mpl 
 mpl.rcParams['animation.ffmpeg_path'] = '/Users/Pierrecounathe/Downloads/ffmpeg'
 
-image = mpimg.imread("court.png")
+image = mpimg.imread("../raw_data/court.png")
 
 size = np.shape(image)
 reshape_size = [size[0]/50, size[1]/95]
@@ -119,13 +119,17 @@ def animation_frame(i):
     if attacking_team == 0: # if home team attacks
         closest_def_position = full_data[[f'player_a{closest_def}x'] + [f'player_a{closest_def}y']].iloc[i]
         ball_carrier_position = full_data[[f'player_h{ball_carrier}x'] + [f'player_h{ball_carrier}y']].iloc[i]
+        scat2.set_edgecolor('cyan')
+        scat3.set_edgecolor('orange')
         texts[0].set_text('closest defender')
         texts[1].set_text('ball carrier')
     else: # if away team attacks
         closest_def_position = full_data[[f'player_h{closest_def}x'] + [f'player_h{closest_def}y']].iloc[i]
         ball_carrier_position = full_data[[f'player_a{ball_carrier}x'] + [f'player_a{ball_carrier}y']].iloc[i]
-        texts[1].set_text('closest defender')
-        texts[0].set_text('ball carrier')
+        scat2.set_edgecolor('orange')
+        scat3.set_edgecolor('cyan')
+        texts[1].set_text('ball carrier')
+        texts[0].set_text('closest defender')
     legend = ax2.legend(loc = 'upper right')
 
     ax2.set_ylim(0, size[0])
