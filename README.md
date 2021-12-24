@@ -15,4 +15,4 @@ The game data can be found on [this repository](https://github.com/linouk23/NBA-
 
 ## Example and results
 
-![example gif]()
+![example gif](results/example.gif)
