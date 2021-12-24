@@ -21,6 +21,11 @@ The game data can be found on [this repository](https://github.com/linouk23/NBA-
 
 ### Shooting success probabilities on the court
 
+- Shooting success probability on the court with a closest defender 1 foot away from the ball carrier
 ![shooting success probability on the court with a closest defender 1 foot away](results/shooting_success_probability_with_dist_def_1.png)
+
+- Shooting success probability on the court with a closest defender 2.5 feet away from the ball carrier
 ![shooting success probability on the court with a closest defender 2.5 feet away](results/shooting_success_probability_with_dist_def_2.5.png)
+
+- Shooting success probability on the court with a closest defender 5 feet away from the ball carrier
 ![shooting success probability on the court with a closest defender 5 feet away](results/shooting_success_probability_with_dist_def_5.png)
