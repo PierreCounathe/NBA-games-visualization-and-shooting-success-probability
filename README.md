@@ -19,6 +19,6 @@ Animation and shooting success probability:
 ![example gif](results/example.gif)
 
 Shooting success probability heatmap with fixed distances to the closest defender:
-[shooting success probability on the court with a closest defender 1 foot away](results/shooting_success_probability_with_dist_def_1.png)
-[shooting success probability on the court with a closest defender 2.5 feet away](results/shooting_success_probability_with_dist_def_2.5.png)
-[shooting success probability on the court with a closest defender 5 feet away](results/shooting_success_probability_with_dist_def_5.png)
+![shooting success probability on the court with a closest defender 1 foot away](results/shooting_success_probability_with_dist_def_1.png)
+![shooting success probability on the court with a closest defender 2.5 feet away](results/shooting_success_probability_with_dist_def_2.5.png)
+![shooting success probability on the court with a closest defender 5 feet away](results/shooting_success_probability_with_dist_def_5.png)
