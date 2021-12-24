@@ -4,7 +4,7 @@ This Sports Analytics project aims at creating a visualization tool for basketba
 ## Project decomposition
 
 This project has three main components:
-- A Logistic Regression model - built in the `shot_success_probability.ipynb` file - which outputs, given the distances between the ball carrier, the defender that is closest to him and the basket, a shooting success probability. This model has been created using the `shot_logs.csv`file and can be found in the `model`folder.
+- A Logistic Regression model - built in the `shot_success_probability.ipynb` file - which outputs, given the distances between the ball carrier, the defender that is closest to him and the basket, a shooting success probability. This model has been created using the `shot_logs.csv`file and can be found in the `/model` folder.
 - The `data_transformation.ipynb` noteboook that takes the .json games files that contain the positions of the ball and of the ten players on the court, completes and transforms it to prepare it for the animtation.
 - The `animation.py` file that displays the games' plays with the associated shooting success proability.
 
@@ -19,6 +19,6 @@ Animation and shooting success probability:
 ![example gif](results/example.gif)
 
 Shooting success probability heatmap with fixed distances to the closest defender:
-[shooting success probability on the court with a closest defender 1 foot away](results/shooting_success_probability_with_dist_def_1.png?raw=true "Title")
+[shooting success probability on the court with a closest defender 1 foot away](results/shooting_success_probability_with_dist_def_1.png)
 [shooting success probability on the court with a closest defender 2.5 feet away](results/shooting_success_probability_with_dist_def_2.5.png)
 [shooting success probability on the court with a closest defender 5 feet away](results/shooting_success_probability_with_dist_def_5.png)
