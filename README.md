@@ -30,7 +30,7 @@ The game data can be found on [this repository](https://github.com/linouk23/NBA-
 - Shooting success probability on the court with a closest defender 5 feet away from the ball carrier
 ![shooting success probability on the court with a closest defender 5 feet away](results/shooting_success_probability_with_dist_def_5.png)
 
-## Organizaztion of this directory
+## Organization of this directory
 ```
 ├── raw_data
 │   ├── 0021500489.json
