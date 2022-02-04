@@ -1,5 +1,5 @@
 # NBA-games-visualisation-and-shooting-success-probability
-This Sports Analytics project aims at creating a visualization tool for basketball games, incorporating the shooting success probability at any time.
+This Sports Analytics project aims at creating a visualization tool for basketball games, incorporating the shooting success probability at any time. This tool is a first step towards an in-game-decision analysis tool as it can be used to assess the relevance of the choice between making a pass and taking a shoot. More detailed datasets could allow the construction of a more developed tool analysing the Expected Point Value of each possible action (pass, shoot, layup, drive, etc.).
 
 ## Project decomposition
 
